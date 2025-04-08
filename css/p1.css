@@ -1,0 +1,114 @@
+
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e7f4e3; 
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .form-container {
+            background-color: #ffffff;
+            width: 350px;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .form-container:hover {
+            transform: translateY(-10px);
+        }
+
+       
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            color: #4caf50;
+            font-weight: 500;
+        }
+
+        input[type="text"], textarea {
+            width: 100%;
+            padding: 12px;
+            margin: 8px 0 20px 0;
+            border: 2px solid #a5d6a7; 
+            border-radius: 8px;
+            background-color: #f1f8e9; 
+            font-size: 14px;
+            color: #388e3c; 
+            transition: border-color 0.3s ease;
+        }
+
+        input[type="text"]:focus, textarea:focus {
+            border-color: #66bb6a; 
+            outline: none;
+            background-color: #ffffff; 
+        }
+
+        input[type="submit"] {
+            width: 100%;
+            padding: 14px;
+            background-color: #66bb6a; 
+            border: none;
+            border-radius: 8px;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #388e3c; 
+        }
+
+        input[type="submit"]:active {
+            background-color: #2e7d32; 
+        }
+        h2 {
+            position: absolute; 
+            top: 20px; 
+            left: 50%; 
+            transform: translateX(-50%); 
+            font-size: 30px;
+            color: #2e8b57; 
+        }
+        a{
+            display: block;
+            padding: 10px 20px;
+            margin: 10px;
+            color: #1e3b03;
+            background-color:#9fce8b;
+            transition: background-color 0.3 ease;
+            border-radius: 5px;
+            text-align: center;
+        }
+        a:hover{
+            background-color: 
+            #8bd36c;
+        }
+        a {
+            position: absolute;
+            bottom: 20px; /* Plasează la 20px de marginea de jos */
+            text-decoration: none;
+            color: #388e3c; /* Verde pentru text */
+            font-size: 18px;
+        }
+
+        /* Plasăm primul link (Romi) la stânga și al doilea la dreapta */
+        a:first-of-type {
+            left: 43%;
+        }
+
+        a:nth-of-type(2) {
+            left: 55%; /* Plasează linkul "Formular" la mijloc */
+            transform: translateX(-50%); /* Centrează pe orizontală */
+        }
+
+        a:hover {
+            color: #2e7d32; /* Verde închis la hover */
+        }
