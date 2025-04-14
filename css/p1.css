@@ -100,19 +100,19 @@ a:hover {
 @media (max-width: 768px) {
     .form-container {
         width: 85%;
-        max-width: 300px; /* mai mic pe mobil */
+        max-width: 300px;
         padding: 16px;
     }
 
     input[type="text"], textarea {
         font-size: 12px;
         padding: 6px 8px;
-        height: 30px; /* mai puțin înalt */
+        height: 30px; 
     }
 
     textarea {
-        height: 80px; /* mai puțin înalt decât default */
-        resize: none; /* opțional: blochează redimensionarea */
+        height: 80px; 
+        resize: none; 
     }
 
     input[type="submit"] {
