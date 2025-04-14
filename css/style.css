@@ -67,3 +67,29 @@ a:hover{
     background-color: 
     #8bd36c;
 }
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+
+    table {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    iframe {
+        width: 100% !important;
+        height: auto;
+        margin-left: 0;
+    }
+
+    h2 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    a {
+        width: 100%;
+        margin: 5px 0;
+    }
+}
