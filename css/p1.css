@@ -104,28 +104,29 @@ a:hover {
         padding: 16px;
     }
 
-    /
+   
     input[type="text"], textarea {
         font-size: 14px;    
         padding: 6px 12px;  
-        height: 30px;      
+        height: 30px;       
         width: 100%;        
         margin-bottom: 10px; 
         box-sizing: border-box; 
     }
 
- 
+
     textarea {
         height: 30px; 
-        resize: none; 
+        resize: none;
     }
+
 
     input[type="submit"] {
         font-size: 14px;
         padding: 10px;
     }
 
- 
+
     a {
         width: 85%;
         max-width: 300px;
