@@ -129,15 +129,30 @@
     }
 
     .form-container {
-        width: 100%;
+        width: 90%;
         padding: 20px;
         box-sizing: border-box;
     }
 
+    input[type="text"], textarea {
+        font-size: 12px;
+        padding: 8px;
+    }
+
+    input[type="submit"] {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    /* Link-urile sub formă de buton */
     a {
         position: static;
+        display: block;
+        width: 90%;
         margin: 10px auto;
-        width: 100%;
-        max-width: 300px;
+        font-size: 14px;
+        padding: 10px;
+        box-sizing: border-box;
+        text-align: center;
     }
 }
