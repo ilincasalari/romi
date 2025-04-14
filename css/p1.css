@@ -93,22 +93,51 @@
         }
         a {
             position: absolute;
-            bottom: 20px; /* Plasează la 20px de marginea de jos */
+            bottom: 20px; 
             text-decoration: none;
-            color: #388e3c; /* Verde pentru text */
+            color: #388e3c; 
             font-size: 18px;
         }
 
-        /* Plasăm primul link (Romi) la stânga și al doilea la dreapta */
+    
         a:first-of-type {
             left: 43%;
         }
 
         a:nth-of-type(2) {
-            left: 55%; /* Plasează linkul "Formular" la mijloc */
-            transform: translateX(-50%); /* Centrează pe orizontală */
+            left: 55%; 
+            transform: translateX(-50%); 
         }
 
         a:hover {
-            color: #2e7d32; /* Verde închis la hover */
+            color: #2e7d32; 
         }
+@media (max-width: 768px) {
+    body {
+        flex-direction: column;
+        align-items: stretch;
+        padding: 20px;
+        height: auto;
+    }
+
+    h2 {
+        position: static;
+        transform: none;
+        text-align: center;
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    .form-container {
+        width: 100%;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+    a {
+        position: static;
+        margin: 10px auto;
+        width: 100%;
+        max-width: 300px;
+    }
+}
