@@ -89,7 +89,9 @@ a:hover{
     }
 
     a {
-        width: 100%;
-        margin: 5px 0;
+        width: 80%;
+        margin: 5px auto;
+        font-size: 14px;
+        padding: 8px 12px;
     }
 }
